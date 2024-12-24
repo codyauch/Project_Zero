@@ -25,7 +25,7 @@ int Fin::set_deflection(int deflection_angle)
 
 int Fin::deflection_to_servo_angle(int deflection)
 {
-    int servo_angle = (90 + deflection) + deflection_offset;
+    int servo_angle = (90 + deflection) - deflection_offset;
 
     // Clamp to 180 degrees (to compensate for offset)
     if (servo_angle > 180)
