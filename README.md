@@ -20,4 +20,5 @@ Coming soon (hopefully)
 ## Iterations
 ||Main Objective:|status|
 |-|-|-|
-|1|Minimally complete model, active aerodynamic control|WIP|
+|1|Minimally complete model, active aerodynamic control|Done|
+|2|Finer-grained fin control|WIP|
