@@ -88,6 +88,17 @@ void centre_fins()
   }
 }
 
+int init_fins()
+{
+  int status = 0;
+  status |= fin1.set_deflection_offset(3);
+  status |= fin2.set_deflection_offset(7);
+  status |= fin3.set_deflection_offset(19);
+  status |= fin4.set_deflection_offset(1);
+
+  return status;
+}
+
 void setup() {
   Serial.begin(9600);
   pinMode(LED_BUILTIN, OUTPUT);
@@ -101,6 +112,10 @@ void setup() {
   digitalWrite(LED_BUILTIN, LOW);
   delay(500);
 
+  if(init_fins() != 0)
+  {
+    while(1);
+  }
 
   // fin_test(); // DEBUG
   // adv_fin_test(); // DEBUG
