@@ -1,4 +1,5 @@
 # Project Zero
+![CAD Model of Zero Assembly](https://i.imgur.com/t4JiJKQ.png)
 Project ***Zero*** is a personal project aimed at teaching myself CAD, CFD, electronic circuits, and flight software design. To accomplish this I am attempting to design and build something akin to a model rocket that is actively stabilized through use of aerodynamic fins.
 
 I've decided that this project will have an iterative design approach, where I focus more on solving a single problem at a time, rather than spending a great deal of time trying to optimize every aspect of the design before implementing anything.
